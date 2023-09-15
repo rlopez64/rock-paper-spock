@@ -14,7 +14,7 @@
     />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="game.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/game.css" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,7 +25,7 @@
     />
 
     <!-- JavaScript -->
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="./src/script.js"></script>
   </head>
   <body>
     <header>
@@ -48,7 +48,11 @@
         <div class="row game">
           <div class="col-5">
             <!--Placeholder Element for Player’s Choice-->
-            <img id="playerChoice" src="options/human-icon.png" width="100px" />
+            <img
+              id="playerChoice"
+              src="./assets/images/human-icon.png"
+              width="100px"
+            />
           </div>
           <div class="col-2" id="vs">
             <p>vs</p>
@@ -57,7 +61,7 @@
             <!--Placeholder Element for Computer’s Choice-->
             <img
               id="computerChoice"
-              src="options/robot-icon.png"
+              src="./assets/images/robot-icon.png"
               width="100px"
             />
           </div>
@@ -70,7 +74,7 @@
           <div class="col-2">
             <a href="#resultText"
               ><img
-                src="options/rock.png"
+                src="./assets/images/rock.png"
                 width="100px"
                 height="100px"
                 onclick="checkResult(1)"
@@ -80,7 +84,7 @@
           <div class="col-2">
             <a href="#resultText"
               ><img
-                src="options/paper.png"
+                src="./assets/images/paper.png"
                 width="100px"
                 height="100px"
                 onclick="checkResult(2)"
@@ -90,7 +94,7 @@
           <div class="col-2">
             <a href="#resultText"
               ><img
-                src="options/scissors.png"
+                src="./assets/images/scissors.png"
                 width="100px"
                 height="100px"
                 onclick="checkResult(3)"
@@ -100,7 +104,7 @@
           <div class="col-2">
             <a href="#resultText"
               ><img
-                src="options/lizard.jpg"
+                src="./assets/images/lizard.jpg"
                 width="100px"
                 height="100px"
                 onclick="checkResult(4)"
@@ -110,7 +114,7 @@
           <div class="col-2">
             <a href="#resultText"
               ><img
-                src="options/spock.jpg"
+                src="./assets/images/spock.jpg"
                 width="100px"
                 height="100px"
                 onclick="checkResult(5)"

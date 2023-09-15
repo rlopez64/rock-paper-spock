@@ -4,23 +4,25 @@ html {
   scroll-behavior: smooth;
 }
 
-
 header h1 {
   text-align: center;
-  font-family: 'Bebas Neue', cursive;
-  padding-top: 40px;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 60px;
   font-size: 100px;
-  color: #9D00FF;
+  color: #9d00ff;
 }
 
 header {
   background-image: url("https://i.pinimg.com/originals/f4/02/c8/f402c8b790254cf746ec1932ce6a230b.gif");
-  height: 200px;
-  border: 10px solid #9D00FF;
+  height: 300px;
+  border: 10px solid #9d00ff;
   border-width: 60px 0px 0px 0px;
+  margin-bottom: 50px;
 }
 
-.row-game-labels, .row-game, .row{
+.row-game-labels,
+.row-game,
+.row {
   display: flex;
   justify-content: space-between;
   padding: 1em;
@@ -29,37 +31,33 @@ header {
 
 main p {
   text-align: center;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .result {
   text-align: center;
   margin-top: 50px;
-  
 }
 
-
-
-.options p{
+.options p {
   padding-top: 30px;
   color: white;
   font-weight: bold;
 }
 
-.options img{
+.options img {
   margin-top: 30px;
 }
 
 #optionsText {
   padding: 50px;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 50px;
-  
-} 
+}
 
 #vs {
   font-size: 100px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 #resultText {
@@ -67,9 +65,9 @@ main p {
 }
 
 .box-shadow {
-      background-color: #E384FF;
-      color: white;
-      padding: 10px;
-      border-radius: 4px;
-      box-shadow: 2px 2px 20px 23px #FFA3FD;
-    }
+  background-color: #e384ff;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 20px 23px #ffa3fd;
+}
