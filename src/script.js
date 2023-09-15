@@ -1,18 +1,18 @@
 //Loading up the images
 const rockImg = new Image();
-rockImg.src = "./assets/images/rock.png";
+rockImg.src = "../assets/images/rock.png";
 
 const paperImg = new Image();
-paperImg.src = "./assets/images/paper.png";
+paperImg.src = "../assets/images/paper.png";
 
 const scissorsImg = new Image();
-scissorsImg.src = "./assets/images/scissors.png";
+scissorsImg.src = "../assets/images/scissors.png";
 
 const lizardImg = new Image();
-lizardImg.src = "./assets/images/lizard.jpg";
+lizardImg.src = "../assets/images/lizard.jpg";
 
 const spockImg = new Image();
-spockImg.src = "./assets/images/spock.jpg";
+spockImg.src = "../assets/images/spock.jpg";
 
 //Storing images into an array
 const images = [rockImg, paperImg, scissorsImg, lizardImg, spockImg];
