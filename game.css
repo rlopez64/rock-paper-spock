@@ -1,0 +1,75 @@
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+
+header h1 {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 40px;
+  font-size: 100px;
+  color: #9D00FF;
+}
+
+header {
+  background-image: url("https://i.pinimg.com/originals/f4/02/c8/f402c8b790254cf746ec1932ce6a230b.gif");
+  height: 200px;
+  border: 10px solid #9D00FF;
+  border-width: 60px 0px 0px 0px;
+}
+
+.row-game-labels, .row-game, .row{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  text-align: center;
+}
+
+main p {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.result {
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+
+
+.options p{
+  padding-top: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.options img{
+  margin-top: 30px;
+}
+
+#optionsText {
+  padding: 50px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 50px;
+  
+} 
+
+#vs {
+  font-size: 100px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#resultText {
+  font-size: 200px;
+}
+
+.box-shadow {
+      background-color: #E384FF;
+      color: white;
+      padding: 10px;
+      border-radius: 4px;
+      box-shadow: 2px 2px 20px 23px #FFA3FD;
+    }
